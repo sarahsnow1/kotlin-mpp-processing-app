@@ -40,7 +40,9 @@
           <option name="apiVersion" value="1.3" />
           <option name="pluginOptions">
             <array>
-              <option value="plugin:org.jetbrains.kotlin.android:configuration=rO0ABXeDAAAAAwAIZmVhdHVyZXMAAAABAAV2aWV3cwAHcGFja2FnZQAAAAEABnNhbXBsZQAHdmFyaWFudAAAAAEARm1haW47L1VzZXJzL3NhcmFoL3Byb2plY3RzL2tvdGxpbi1tcHAtcHJvY2Vzc2luZy10ZXN0L2FwcC9zcmMvbWFpbi9yZXM=" />
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
             </array>
           </option>
           <option name="pluginClasspaths">
