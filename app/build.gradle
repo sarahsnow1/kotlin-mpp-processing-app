@@ -5,6 +5,7 @@ repositories {
     google()
     jcenter()
     mavenCentral()
+    mavenLocal()
 }
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android-extensions'
@@ -46,6 +47,7 @@ kotlin {
         commonMain {
             dependencies {
                 implementation 'org.jetbrains.kotlin:kotlin-stdlib-common'
+                implementation 'com.example:kotlin-mpp-processing-lib-test:0.0.1'
             }
         }
         commonTest {
@@ -57,6 +59,7 @@ kotlin {
         androidMain {
             dependencies {
                 implementation 'org.jetbrains.kotlin:kotlin-stdlib'
+                implementation 'com.example:kotlin-mpp-processing-lib-test-jvm:0.0.1'
             }
         }
         androidTest {
@@ -66,6 +69,9 @@ kotlin {
             }
         }
         iosMain {
+            dependencies {
+                implementation 'com.example:kotlin-mpp-processing-lib-test-ios:0.0.1'
+            }
         }
         iosTest {
         }

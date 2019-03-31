@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
         hello()
         Sample().checkMe()
         setContentView(R.layout.activity_main)
-        findViewById<TextView>(R.id.text_view)?.text = hello()
+        findViewById<TextView>(R.id.text_view)?.text = "${hello()}\n" +
+                "Processing platform:${processingName()}\n" +
+                "Processing version ${processingVersion()}"
+
     }
 }

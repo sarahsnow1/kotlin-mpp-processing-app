@@ -4,8 +4,8 @@
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="Native " useProjectSettings="false" isTestModule="true" externalProjectId=":app">
         <sourceSets>
-          <sourceSet>kotlin-mpp-processing-test.app.commonTest</sourceSet>
           <sourceSet>kotlin-mpp-processing-test.app.commonMain</sourceSet>
+          <sourceSet>kotlin-mpp-processing-test.app.commonTest</sourceSet>
           <sourceSet>kotlin-mpp-processing-test.app.iosMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
@@ -24,6 +24,9 @@
             <array />
           </option>
           <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
         </compilerArguments>
       </configuration>
     </facet>
